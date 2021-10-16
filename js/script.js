@@ -1,5 +1,5 @@
 // Task1
-let user ={
+const user ={
     name: "John",
     surname: "Smith"
 };
@@ -17,10 +17,10 @@ user2.name="Pete"; //этот код будет работать
 console.log(user2);
 
 // Task3
-let salaries = {
+const salaries = {
     John: 100,
     Ann: 160,
     Pete: 130 
   }
-let sum = Number(salaries.John) + Number(salaries.Ann) + Number(salaries.Pete);
+const sum = salaries.John + salaries.Ann + salaries.Pete;
 console.log(sum); 
